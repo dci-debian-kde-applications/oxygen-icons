@@ -1,4 +1,4 @@
-oxygen-icons (4:4.2.85) UNRELEASED; urgency=low
+oxygen-icons (4:4.2.85-1) UNRELEASED; urgency=low
 
   * Initial release as standalone package. The icons have formerly been a part
     of kdebase-runtime.
