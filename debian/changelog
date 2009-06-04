@@ -3,4 +3,4 @@ oxygen-icons (4:4.2.85-1) UNRELEASED; urgency=low
   * Initial release as standalone package. The icons have formerly been a part
     of kdebase-runtime.
 
- -- Armin Berres <trigger+debian@space-based.de>  Sun, 17 May 2009 21:03:20 -0400
+ -- Armin Berres <armin+debian@space-based.de>  Sun, 17 May 2009 21:03:20 -0400
