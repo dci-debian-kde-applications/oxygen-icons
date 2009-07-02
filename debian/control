@@ -27,4 +27,4 @@ Architecture: all
 Depends: oxygen-icon-theme
 Description: transitional package for oxygen icon theme
  transitional package for ease upgrading from oxygen icons as shipped 
- in kde 4.2-series and earlier.
+ in KDE 4.2-series and earlier.
