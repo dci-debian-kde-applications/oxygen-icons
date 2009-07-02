@@ -1,5 +1,5 @@
 Source: oxygen-icons
-Section: kde
+Section: x11
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>,
@@ -11,10 +11,20 @@ Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/oxygen-icons
 Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/oxygen-icons
 
 Package: oxygen-icon-theme
-Section: kde
+Section: x11
 Architecture: all
 Replaces: kde-icons-oxygen, kdebase-data (<= 4:4.0.0-1), libkdepim4 (<< 4:4.2.90), dolphin (<< 4:4.1.86+svn902162)
-Conflicts: kde-icons-oxygen
+Conflicts: kde-icons-oxygen (<< 4:4.2.90)
 Provides: kde-icons-oxygen
-Description: Oxygen icon theme for KDE 4
- Oxygen is the standard icon theme for KDE 4.
+Description: Oxygen icon theme
+ Oxygen is the standard icon theme for KDE 4, but follows the freedesktop.org
+ icon schemes, so it can be used in other desktop environments using this 
+ specification.
+
+Package: kde-icons-oxygen
+Section: kde
+Architecture: all
+Depends: oxygen-icon-theme
+Description: transitional package for oxygen icon theme
+ transitional package for ease upgrading from oxygen icons as shipped 
+ in kde 4.2-series and earlier.
