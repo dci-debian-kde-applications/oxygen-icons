@@ -15,6 +15,7 @@ Section: x11
 Architecture: all
 Replaces: kde-icons-oxygen, kdebase-data (<= 4:4.0.0-1), libkdepim4 (<< 4:4.2.90), dolphin (<< 4:4.1.86+svn902162)
 Conflicts: kde-icons-oxygen (<< 4:4.2.90)
+Breaks: kdebase-runtime (<< 4.2.4-2)
 Provides: kde-icons-oxygen
 Description: Oxygen icon theme
  Oxygen is the standard icon theme for KDE 4, but follows the freedesktop.org
