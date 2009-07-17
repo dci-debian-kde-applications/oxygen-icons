@@ -13,6 +13,7 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/oxygen-icons
 Package: oxygen-icon-theme
 Section: x11
 Architecture: all
+Depends: ${misc:Depends}
 Replaces: kde-icons-oxygen, kdebase-data (<= 4:4.0.0-1), libkdepim4 (<< 4:4.2.90), dolphin (<< 4:4.1.86+svn902162)
 Conflicts: kde-icons-oxygen (<< 4:4.2.90)
 Breaks: kdebase-runtime (<< 4.2.4-2)
@@ -25,7 +26,7 @@ Description: Oxygen icon theme
 Package: kde-icons-oxygen
 Section: kde
 Architecture: all
-Depends: oxygen-icon-theme
+Depends: ${misc:Depends}, oxygen-icon-theme
 Description: transitional package for oxygen icon theme
  transitional package for ease upgrading from oxygen icons as shipped 
  in KDE 4.2-series and earlier.
