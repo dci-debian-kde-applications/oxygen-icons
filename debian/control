@@ -5,7 +5,7 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>,
  Armin Berres <armin+debian@space-based.de>, Modestas Vainius <modestas@vainius.eu>
 Build-Depends: debhelper (>= 7), cdbs, cmake
-Standards-Version: 3.8.1
+Standards-Version: 3.8.2
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/oxygen-icons
 Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/oxygen-icons
