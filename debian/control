@@ -14,7 +14,7 @@ Package: oxygen-icon-theme
 Section: x11
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: kde-icons-oxygen, kdebase-data (<= 4:4.0.0-1), libkdepim4 (<< 4:4.2.90), dolphin (<< 4:4.1.86+svn902162)
+Replaces: kde-icons-oxygen, kdebase-data (<= 4:4.0.0-1), libkdepim4 (<< 4:4.2.90), dolphin (<< 4:4.1.86+svn902162), step (<< 4:4.3.0)
 Conflicts: kde-icons-oxygen (<< 4:4.2.90)
 Breaks: kdebase-runtime (<< 4.2.4-2)
 Provides: kde-icons-oxygen

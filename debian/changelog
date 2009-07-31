@@ -2,7 +2,11 @@ oxygen-icons (4:4.3.0-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
- -- Fathi Boudra <fabo@debian.org>  Wed, 22 Jul 2009 15:38:09 +0200
+  +++ Changes by Modestas Vainius:
+
+  * oxygen-icon-theme releases step (<< 4:4.3.0).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 31 Jul 2009 09:20:31 +0300
 
 oxygen-icons (4:4.2.96-1) experimental; urgency=low
 
