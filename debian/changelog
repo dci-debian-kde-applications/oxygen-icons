@@ -4,7 +4,7 @@ oxygen-icons (4:4.3.0-0r2) UNRELEASED; urgency=low
 
   +++ Changes by Modestas Vainius:
 
-  * oxygen-icon-theme releases step (<< 4:4.3.0).
+  * oxygen-icon-theme replaces step (<< 4:4.3.0).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 31 Jul 2009 09:20:31 +0300
 
