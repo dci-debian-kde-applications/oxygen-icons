@@ -1,3 +1,13 @@
+oxygen-icons (4:4.3.1-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Fathi Boudra:
+
+  * Bump Standards-Version to 3.8.3 (no changes needed).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 30 Aug 2009 12:45:59 +0200
+
 oxygen-icons (4:4.3.0-1) unstable; urgency=low
 
   * New upstream release.
