@@ -1,4 +1,4 @@
-oxygen-icons (4:4.3.2-0r1) UNRELEASED; urgency=low
+oxygen-icons (4:4.3.2-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -7,7 +7,7 @@ oxygen-icons (4:4.3.2-0r1) UNRELEASED; urgency=low
   * Add kmail (<< 4:4.3.2) to Replaces field: some kmail icons are shipped by
     oxygen-icons now.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 03 Oct 2009 22:41:32 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 15 Oct 2009 17:36:05 +0200
 
 oxygen-icons (4:4.3.1-1) unstable; urgency=low
 
