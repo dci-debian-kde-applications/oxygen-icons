@@ -1,4 +1,4 @@
-oxygen-icons (4:4.3.3-0r1) UNRELEASED; urgency=low
+oxygen-icons (4:4.3.4-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -6,7 +6,7 @@ oxygen-icons (4:4.3.3-0r1) UNRELEASED; urgency=low
 
   * Remove myself from Uploaders.
 
- -- Lukasz Janyst <janyst@gmail.com>  Sun, 08 Nov 2009 00:27:03 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 08 Dec 2009 19:52:49 +0200
 
 oxygen-icons (4:4.3.2-1) unstable; urgency=low
 
