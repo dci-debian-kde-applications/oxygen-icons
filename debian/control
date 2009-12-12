@@ -3,7 +3,7 @@ Section: x11
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>,
- Armin Berres <armin+debian@space-based.de>, Modestas Vainius <modestas@vainius.eu>
+ Armin Berres <armin+debian@space-based.de>, Modestas Vainius <modax@debian.org>
 Build-Depends: debhelper (>= 7), cdbs, cmake
 Standards-Version: 3.8.3
 Homepage: http://www.kde.org/
