@@ -1,9 +1,11 @@
-oxygen-icons (4:4.3.4-2) UNRELEASED; urgency=low
+oxygen-icons (4:4.4.0-0r1) UNRELEASED; urgency=low
 
+  * New usptream release.
   * Change my email address to modax@debian.org in Uploaders field.
   * Fix Vcs-Browser URL.
+  * Bump Standards-Version to 3.8.4: no changes needed.
 
- -- Modestas Vainius <modax@debian.org>  Sat, 12 Dec 2009 16:57:12 +0200
+ -- Modestas Vainius <modax@debian.org>  Sun, 21 Feb 2010 20:24:06 +0200
 
 oxygen-icons (4:4.3.4-1) unstable; urgency=low
 
