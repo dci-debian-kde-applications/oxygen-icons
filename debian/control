@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>,
  Armin Berres <armin+debian@space-based.de>, Modestas Vainius <modax@debian.org>
-Build-Depends: debhelper (>= 7.3), cmake
+Build-Depends: debhelper (>= 7.3), cmake, fdupes
 Standards-Version: 3.8.4
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/oxygen-icons/#_trunk_packages_oxygen-icons_

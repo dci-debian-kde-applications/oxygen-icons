@@ -4,6 +4,7 @@ oxygen-icons (4:4.4.2-0rc1) UNRELEASED; urgency=low
 
   [ Eckhart Wörner ]
   * Use cmake support in debhelper 7.3+, get rid of cdbs dependency
+  * Symlink duplicate icon files to save disk space. (Closes: #531004)
 
  -- Modestas Vainius <modax@debian.org>  Sat, 27 Mar 2010 03:36:49 +0200
 
