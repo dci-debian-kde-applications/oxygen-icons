@@ -1,8 +1,12 @@
-oxygen-icons (4:4.4.5-1) UNRELEASED; urgency=low
+oxygen-icons (4:4.4.5-1) unstable; urgency=low
 
+  [ Modestas Vainius ]
   * New upstream release.
 
- -- Modestas Vainius <modax@debian.org>  Sun, 04 Jul 2010 19:00:54 +0300
+  [ Sune Vuorela ]
+  * Update email address
+
+ -- Sune Vuorela <sune@debian.org>  Sun, 18 Jul 2010 14:48:53 +0200
 
 oxygen-icons (4:4.4.4-1) unstable; urgency=low
 
