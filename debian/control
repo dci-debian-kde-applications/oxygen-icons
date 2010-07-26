@@ -7,8 +7,8 @@ Uploaders: Sune Vuorela <sune@debian.org>, Fathi Boudra <fabo@debian.org>,
 Build-Depends: debhelper (>= 7.3), cmake, fdupes
 Standards-Version: 3.8.4
 Homepage: http://www.kde.org/
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/oxygen-icons/#_trunk_packages_oxygen-icons_
-Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/oxygen-icons
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/oxygen-icons.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/oxygen-icons.git
 
 Package: oxygen-icon-theme
 Section: x11
