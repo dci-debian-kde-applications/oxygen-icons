@@ -88,20 +88,12 @@ oxygen-icons (4:4.3.0-1) unstable; urgency=low
 
 oxygen-icons (4:4.2.96-1) experimental; urgency=low
 
-  * New upstream release.
-
- -- Fathi Boudra <fabo@debian.org>  Fri, 17 Jul 2009 10:59:28 +0200
-
-oxygen-icons (4:4.2.95-2) experimental; urgency=low
-
-  * Oxygen-icons break older kdebase-runtime. Add respective Breaks.
-
- -- Armin Berres <armin+debian@space-based.de>  Sun, 12 Jul 2009 22:39:34 +0200
-
-oxygen-icons (4:4.2.95-1) experimental; urgency=low
-
   * Initial release as standalone package. The icons have formerly been a part
     of kdebase-runtime.
+
+  +++ Changes by Armin Berres:
+
+  * Oxygen-icons break older kdebase-runtime. Add respective Breaks.
   * Provide transitional package
 
- -- Armin Berres <armin+debian@space-based.de>  Sun, 17 May 2009 21:03:20 -0400
+ -- Debian Qt/KDE Maintainers <fabo@debian.org>  Fri, 17 Jul 2009 10:59:28 +0200
