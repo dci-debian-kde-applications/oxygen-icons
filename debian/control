@@ -13,7 +13,7 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/oxygen-icons.git
 Package: oxygen-icon-theme
 Section: x11
 Architecture: all
-Depends: ${misc:Depends}
+Depends: hicolor-icon-theme, ${misc:Depends}
 Replaces: kde-icons-oxygen, kdebase-data (<= 4:4.0.0-1),
  libkdepim4 (<< 4:4.2.90), dolphin (<< 4:4.1.86+svn902162), step (<< 4:4.3.0),
  kmail (<< 4:4.3.2)
