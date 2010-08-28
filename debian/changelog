@@ -1,4 +1,6 @@
-oxygen-icons (4:4.4.5-2) UNRELEASED; urgency=low
+oxygen-icons (4:4.5.1-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   [ Modestas Vainius ]
   * Point debian/control Vcs fields to the new Git repository.
@@ -6,7 +8,7 @@ oxygen-icons (4:4.4.5-2) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Depend on hicolor-icon-theme, as Oyxgen inherits it.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 Aug 2010 23:53:47 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 28 Aug 2010 21:49:54 +0300
 
 oxygen-icons (4:4.4.5-1) unstable; urgency=low
 
