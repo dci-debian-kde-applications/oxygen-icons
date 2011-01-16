@@ -1,6 +1,7 @@
 oxygen-icons (4:4.5.95-0r1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - fixes wrong 16x16 "zoom to page" icon (Closes: #557512)
 
   [ Modestas Vainius ]
   * Point debian/control Vcs fields to the new Git repository.
