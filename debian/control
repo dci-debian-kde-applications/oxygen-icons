@@ -5,7 +5,7 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>, Fathi Boudra <fabo@debian.org>,
  Armin Berres <armin+debian@space-based.de>, Modestas Vainius <modax@debian.org>
 Build-Depends: debhelper (>= 7.3), cmake, fdupes
-Standards-Version: 3.8.4
+Standards-Version: 3.9.1
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/oxygen-icons.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/oxygen-icons.git
@@ -17,8 +17,10 @@ Depends: hicolor-icon-theme, ${misc:Depends}
 Replaces: kde-icons-oxygen, kdebase-data (<= 4:4.0.0-1),
  libkdepim4 (<< 4:4.2.90), dolphin (<< 4:4.1.86+svn902162), step (<< 4:4.3.0),
  kmail (<< 4:4.3.2)
-Conflicts: kde-icons-oxygen (<< 4:4.2.90)
-Breaks: kdebase-runtime (<< 4.2.4-2)
+Breaks: kdebase-data (<= 4:4.0.0-1),
+ libkdepim4 (<< 4:4.2.90), dolphin (<< 4:4.1.86+svn902162), step (<< 4:4.3.0),
+ kmail (<< 4:4.3.2), kdebase-runtime (<< 4.2.4-2)
+Conflicts: kde-icons-oxygen 
 Provides: kde-icons-oxygen
 Description: Oxygen icon theme
  Oxygen is the standard icon theme for KDE 4, but follows the freedesktop.org

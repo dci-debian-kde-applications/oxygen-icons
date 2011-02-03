@@ -9,6 +9,9 @@ oxygen-icons (4:4.6.0-0r1) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Depend on hicolor-icon-theme, as Oyxgen inherits it.
 
+  [ José Manuel Santamaría Lema ]
+  * Bump S-V to 3.9.1; update Replaces/Breaks/conflicts.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 28 Aug 2010 21:49:54 +0300
 
 oxygen-icons (4:4.4.5-1) unstable; urgency=low
