@@ -1,4 +1,4 @@
-oxygen-icons (4:4.6.0-0r1) UNRELEASED; urgency=low
+oxygen-icons (4:4.6.1-0r1) UNRELEASED; urgency=low
 
   * New upstream release:
     - fixes wrong 16x16 "zoom to page" icon (Closes: #557512)
