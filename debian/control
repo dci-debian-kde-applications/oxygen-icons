@@ -14,23 +14,7 @@ Package: oxygen-icon-theme
 Section: x11
 Architecture: all
 Depends: hicolor-icon-theme, ${misc:Depends}
-Replaces: kde-icons-oxygen, kdebase-data (<= 4:4.0.0-1),
- libkdepim4 (<< 4:4.2.90), dolphin (<< 4:4.1.86+svn902162), step (<< 4:4.3.0),
- kmail (<< 4:4.3.2)
-Breaks: kdebase-data (<= 4:4.0.0-1),
- libkdepim4 (<< 4:4.2.90), dolphin (<< 4:4.1.86+svn902162), step (<< 4:4.3.0),
- kmail (<< 4:4.3.2), kdebase-runtime (<< 4.2.4-2)
-Conflicts: kde-icons-oxygen 
-Provides: kde-icons-oxygen
 Description: Oxygen icon theme
  Oxygen is the standard icon theme for KDE 4, but follows the freedesktop.org
  icon schemes, so it can be used in other desktop environments using this 
  specification.
-
-Package: kde-icons-oxygen
-Section: kde
-Architecture: all
-Depends: ${misc:Depends}, oxygen-icon-theme
-Description: transitional package for oxygen icon theme
- transitional package for ease upgrading from oxygen icons as shipped 
- in KDE 4.2-series and earlier.

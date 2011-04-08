@@ -5,6 +5,7 @@ oxygen-icons (4:4.6.2-0r0) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Point debian/control Vcs fields to the new Git repository.
+  * Drop dummy kde-icons-oxygen package and remove pre-squeeze Replaces/Breaks.
 
   [ Pino Toscano ]
   * Depend on hicolor-icon-theme, as Oyxgen inherits it.
