@@ -3,7 +3,7 @@ Section: x11
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>, Fathi Boudra <fabo@debian.org>,
- Armin Berres <armin+debian@space-based.de>, Modestas Vainius <modax@debian.org>,
+ Modestas Vainius <modax@debian.org>,
  José Manuel Santamaría Lema <panfaust@gmail.com>, Eshat Cakar <info@eshat.de>
 Build-Depends: debhelper (>= 7.3.16), cmake, fdupes, pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.2
@@ -17,5 +17,5 @@ Architecture: all
 Depends: hicolor-icon-theme, ${misc:Depends}
 Description: Oxygen icon theme
  Oxygen is the standard icon theme for KDE 4, but follows the freedesktop.org
- icon schemes, so it can be used in other desktop environments using this 
+ icon schemes, so it can be used in other desktop environments using this
  specification.
