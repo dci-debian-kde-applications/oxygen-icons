@@ -12,7 +12,6 @@ Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/oxygen-icons.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/oxygen-icons.git
 
 Package: oxygen-icon-theme
-Section: x11
 Architecture: all
 Depends: hicolor-icon-theme, ${misc:Depends}
 Description: Oxygen icon theme
