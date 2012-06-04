@@ -2,9 +2,11 @@ Source: oxygen-icons
 Section: x11
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Sune Vuorela <sune@debian.org>, Fathi Boudra <fabo@debian.org>,
+Uploaders: Sune Vuorela <sune@debian.org>,
+ Fathi Boudra <fabo@debian.org>,
  Modestas Vainius <modax@debian.org>,
- José Manuel Santamaría Lema <panfaust@gmail.com>, Eshat Cakar <info@eshat.de>
+ José Manuel Santamaría Lema <panfaust@gmail.com>,
+ Eshat Cakar <info@eshat.de>
 Build-Depends: debhelper (>= 7.3.16), cmake, fdupes, pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.2
 Homepage: http://www.kde.org/
