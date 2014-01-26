@@ -1,6 +1,7 @@
 oxygen-icons (4:4.11.4-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Bump Standards-Version to 3.9.5, no changes needed.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Dec 2013 16:17:46 +0100
 

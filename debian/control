@@ -8,7 +8,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>,
            Eshat Cakar <info@eshat.de>
 Build-Depends: cmake, debhelper (>= 9), fdupes, pkg-kde-tools (>= 0.14)
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/oxygen-icons.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/oxygen-icons.git
