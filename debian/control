@@ -3,11 +3,11 @@ Section: x11
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>,
- Fathi Boudra <fabo@debian.org>,
- Modestas Vainius <modax@debian.org>,
- Maximiliano Curia <maxy@debian.org>,
- Eshat Cakar <info@eshat.de>
-Build-Depends: debhelper (>= 9), cmake, fdupes, pkg-kde-tools (>= 0.14)
+           Fathi Boudra <fabo@debian.org>,
+           Modestas Vainius <modax@debian.org>,
+           Maximiliano Curia <maxy@debian.org>,
+           Eshat Cakar <info@eshat.de>
+Build-Depends: cmake, debhelper (>= 9), fdupes, pkg-kde-tools (>= 0.14)
 Standards-Version: 3.9.4
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/oxygen-icons.git
