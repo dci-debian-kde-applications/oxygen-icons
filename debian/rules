@@ -2,6 +2,12 @@
 
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
+override_dh_auto_build:
+	convert 64x64/mimetypes/x-office-document.png \
+	    -scale "22x22" \
+	    22x22/mimetypes/x-office-document.png
+	$(overridden_command)
+
 override_dh_auto_install:
 	$(overridden_command) --destdir=debian/tmp
 

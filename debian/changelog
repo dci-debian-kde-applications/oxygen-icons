@@ -1,6 +1,7 @@
 oxygen-icons (4:4.14.0-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Fix x-office-document.png in 22x22. (Closes: #677675)
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 18 Aug 2014 18:26:41 +0200
 
