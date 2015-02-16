@@ -1,6 +1,7 @@
 oxygen-icons (4:14.12.2-1~) UNRELEASED; urgency=medium
 
   * Prepare Debian release.
+  * Bump Standards-Version to 3.9.6, no changes needed.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 16 Feb 2015 11:19:37 +0100
 
