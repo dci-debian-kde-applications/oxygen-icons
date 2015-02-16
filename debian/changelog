@@ -1,7 +1,7 @@
 oxygen-icons (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Remove unstable from watch file, uscan fails with 
+  * Remove unstable from watch file, uscan fails with
     remote site does not even have current version
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 08:07:27 -0800
@@ -268,7 +268,7 @@ oxygen-icons (4:4.10.3+dfsg-0ubuntu1) saucy; urgency=low
 
 oxygen-icons (4:4.10.3+dfsg-0ubuntu0.1~ubuntu13.04) raring-proposed; urgency=low
 
-  * New upstream bugfix release (LP: #1176358) 
+  * New upstream bugfix release (LP: #1176358)
     - don't symlink plasmagik.png to hicolor as that's already shipped in
       plasmate-data
 
@@ -290,7 +290,7 @@ oxygen-icons (4:4.10.1-0ubuntu1) raring-proposed-proposed; urgency=low
 
   * New upstream bugfix release
   * Move oxygen-icon-theme-complete transitional package to oldlibs/extra to
-    make lintian happy 
+    make lintian happy
 
  -- Philip Muškovac <yofel@kubuntu.org>  Tue, 05 Mar 2013 16:50:04 +0000
 
@@ -363,12 +363,12 @@ oxygen-icons (4:4.8.90-0ubuntu1) quantal; urgency=low
 
 oxygen-icons (4:4.8.80-0ubuntu1) quantal; urgency=low
 
-  * Merge with debian git, remaining changes: 
+  * Merge with debian git, remaining changes:
     - add oxygen-icon-theme-complete package (now a transitional package)
     - oxygen-icon-theme breaks/replaces oxygen-icon-theme-complete << 4:4.8.80
     - In debian/rules override_dh_install: copy systray icons to
       hicolour, solves loading icons on Gnome
-  
+
   * New upstream beta release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Mon, 21 May 2012 00:38:59 +0200
@@ -393,7 +393,7 @@ oxygen-icons (4:4.8.2-0ubuntu1) precise; urgency=low
 
 oxygen-icons (4:4.8.1-0ubuntu1) precise; urgency=low
 
-  * New upstream release 
+  * New upstream release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sat, 03 Mar 2012 00:18:46 +0100
 
@@ -470,13 +470,13 @@ oxygen-icons (4:4.7.2-0ubuntu1) raring-proposed; urgency=low
 
 oxygen-icons (4:4.7.1-0ubuntu1) oneiric; urgency=low
 
-  * New upstream release 
+  * New upstream release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Fri, 02 Sep 2011 20:13:11 +0200
 
 oxygen-icons (4:4.7.0-0ubuntu1) oneiric; urgency=low
 
-  * New upstrem release 
+  * New upstrem release
   * Fix Vcs links for new branch location
 
  -- Philip Muškovac <yofel@kubuntu.org>  Fri, 22 Jul 2011 21:14:43 +0200
@@ -495,7 +495,7 @@ oxygen-icons (4:4.6.2-2ubuntu1) oneiric; urgency=low
      hicolour, solves loading icons on Gnome
    - Add oxygen-icon-theme-complete package, update .install files to
      split icons
-  * Update Vcs links as the branch is owned by kubuntu-packagers now 
+  * Update Vcs links as the branch is owned by kubuntu-packagers now
 
   [ Felix Geyer ]
   * Fix lintian warning extended-description-line-too-long.
@@ -529,13 +529,13 @@ oxygen-icons (4:4.6.2-1) experimental; urgency=low
 
 oxygen-icons (4:4.6.2-0ubuntu1) natty; urgency=low
 
-  * New upstream release 
+  * New upstream release
 
  -- Tarun Kumar Mall <c2tarun@gmail.com>  Tue, 05 Apr 2011 01:49:47 +0000
 
 oxygen-icons (4:4.6.1-0ubuntu1) natty; urgency=low
 
-  * New upstream release 
+  * New upstream release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sat, 26 Feb 2011 14:13:31 +0100
 
@@ -787,7 +787,7 @@ oxygen-icons (4:4.4.0-0ubuntu1) lucid; urgency=low
 
 oxygen-icons (4:4.3.98-0ubuntu1) lucid; urgency=low
 
-  * New upstream RC release 
+  * New upstream RC release
 
  -- Alessandro Ghersi <alessandro-ghersi@kubuntu.org>  Tue, 02 Feb 2010 19:44:28 +0100
 
@@ -829,7 +829,7 @@ oxygen-icons (4:4.3.3-0ubuntu1) lucid; urgency=low
 
   * New upstream release
   * Merge with Debian Testing remaining changes:
-    - Bump conflict to 4:4.3.3 for kde-icons-oxygen, which has been renamed by 
+    - Bump conflict to 4:4.3.3 for kde-icons-oxygen, which has been renamed by
       Debian to oxygen-icons-theme since our last merge
 
  -- Alessandro Ghersi <alessandro-ghersi@kubuntu.org>  Wed, 11 Nov 2009 04:07:34 +0100
