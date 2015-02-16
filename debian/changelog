@@ -1,3 +1,9 @@
+oxygen-icons (4:14.14.2-1~) UNRELEASED; urgency=medium
+
+  * Prepare Debian release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 16 Feb 2015 11:19:37 +0100
+
 oxygen-icons (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
