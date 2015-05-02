@@ -7,7 +7,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Modestas Vainius <modax@debian.org>,
            Maximiliano Curia <maxy@debian.org>,
            Eshat Cakar <info@eshat.de>
-Build-Depends: cmake,
+Build-Depends: cmake (>= 2.6~),
                debhelper (>= 9),
                fdupes,
                imagemagick,
