@@ -1,6 +1,7 @@
-oxygen-icons5 (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
+oxygen-icons5 (4:5.17.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * Rename to match upstream. Add epoch so binary can be installed.
+  * Initial release as a framework. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Sun, 13 Dec 2015 20:02:39 -0800
 
