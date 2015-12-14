@@ -2,8 +2,9 @@ oxygen-icons5 (4:5.17.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * Rename to match upstream. Add epoch so binary can be installed.
   * Initial release as a framework. 
+  * New upstream release Xenial
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Sun, 13 Dec 2015 20:02:39 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 14 Dec 2015 04:13:04 +0000
 
 oxygen-icons (4:15.04.0-1~) UNRELEASED; urgency=medium
 
