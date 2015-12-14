@@ -1,6 +1,10 @@
 oxygen-icons (4:15.04.0-1~) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (15.04.0).
+
+  [ Scarlett Clark ]
+  * New xenial_archive branch. 
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 16:40:51 +0200
 
