@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
+include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
 override_dh_auto_install:
 	$(overridden_command) --destdir=debian/tmp
@@ -12,11 +12,11 @@ override_dh_auto_build:
 
 override_dh_install:
 	$(overridden_command)
-	find $(CURDIR)/debian/oxygen-icon-theme -type d -print0 |xargs -0 rmdir --ignore-fail-on-non-empty
-	bash $(CURDIR)/debian/symlink_duplicates.sh $(CURDIR)/debian/oxygen-icon-theme $(CURDIR)/debian/oxygen-icon-theme/usr/share/icons
+	find $(CURDIR)/debian/oxygen-icon-theme5 -type d -print0 |xargs -0 rmdir --ignore-fail-on-non-empty
+	bash $(CURDIR)/debian/symlink_duplicates.sh $(CURDIR)/debian/oxygen-icon-theme5 $(CURDIR)/debian/oxygen-icon-theme5/usr/share/icons
 
 	set -e && for size in 256 128 64 48 32 22 16; do \
-		package="oxygen-icon-theme"; \
+		package="oxygen-icon-theme5"; \
 		mkdir -p debian/$${package}/usr/share/icons/hicolor/$${size}x$${size}/apps; \
 		for icon in device-notifier kde kde-windows klipper korgac kpgp krdc krfb ktip nepomuk oxygen plasma strigi; do \
 			if [ -e debian/$${package}/usr/share/icons/oxygen/$${size}x$${size}/apps/$${icon}.png ]; then \

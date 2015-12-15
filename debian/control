@@ -1,4 +1,4 @@
-Source: oxygen-icons
+Source: oxygen-icons5
 Section: x11
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
@@ -9,18 +9,19 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Eshat Cakar <info@eshat.de>
 Build-Depends: cmake (>= 2.6~),
                debhelper (>= 9),
+               extra-cmake-modules (>= 5.17.0~),
                fdupes,
                imagemagick,
                pkg-kde-tools (>= 0.14)
 Standards-Version: 3.9.6
 Homepage: http://www.kde.org/
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/oxygen-icons.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/oxygen-icons.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/oxygen-icons.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/oxygen-icons.git
 
-Package: oxygen-icon-theme
+Package: oxygen-icon-theme5
 Architecture: all
 Depends: hicolor-icon-theme, ${misc:Depends}
-Description: KDE 4 default icon theme
- Oxygen is the standard icon theme for KDE 4, but follows the freedesktop.org
+Description: Plasma5 default icon theme
+ Oxygen is the standard icon theme for Plasma 5, but follows the freedesktop.org
  icon schemes, so it can be used in other desktop environments using this
  specification.
